@@ -1,0 +1,5 @@
+
+LandVoc's changelog:
+-------------------------
+
+2016-06-01  1.0   - Initial release
