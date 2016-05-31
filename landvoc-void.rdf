@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:void="http://rdfs.org/ns/void#"
+>
+
+  <rdf:Description rdf:about="http://www.landportal.info/voc/LandVoc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="en">LandVoc - the Linked Land Governance Thesaurus</dct:title>
+    <dct:description xml:lang="en">LandVoc is the standardized vocabulary for metadata relating to land governance information</dct:description>
+    <dct:creator rdf:resource="http://www.landportal.info"/>
+    <dct:creator rdf:resource="http://aims.fao.org"/>
+    <dc:contributor>Laura Meggiolaro</dc:contributor>
+    <dc:contributor>Lisette Meij</dc:contributor>
+    <dct:publisher rdf:resource="https://www.fao.org"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:created>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:issued>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+    <foaf:homepage rdf:resource="http://www.landportal.info/voc"/>
+    <dct:subject>Land rights</dct:subject> <!-- FIXME change to AGROVOC / DBpedia URLs -->
+    <dct:subject>Human rights</dct:subject>
+    <dct:subject>Land grabbing</dct:subject>
+    <dct:subject>Land governance</dct:subject>
+    <dct:subject>Open Data</dct:subject>
+    <dct:subject>Linked Data</dct:subject>
+    <dct:subject>Land concentration</dct:subject>
+    <dct:subject>Farming</dct:subject>
+    <dct:subject>Urbanization</dct:subject>
+    <dct:subject>Agriculture</dct:subject>
+    <dct:subject>Farmers</dct:subject>
+    <dct:subject>Womens rights</dct:subject>
+    <dct:subject>Access to land</dct:subject>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <void:sparqlEndpoint rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc"/>
+  </rdf:Description>
+</rdf:RDF>
