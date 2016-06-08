@@ -10,30 +10,78 @@
 
   <rdf:Description rdf:about="http://www.landportal.info/voc/LandVoc">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dct:title xml:lang="en">LandVoc - the Linked Land Governance Thesaurus</dct:title>
-    <dct:description xml:lang="en">LandVoc is the standardized vocabulary for metadata relating to land governance information</dct:description>
-    <dct:creator rdf:resource="http://www.landportal.info"/>
+    
+	<dct:title xml:lang="en">LandVoc - the Linked Land Governance Thesaurus</dct:title>
+    <dct:title xml:lang="es">LandVoc - el tesauro de datos enlazados sobre gobernanza de la tierra</dct:title>
+    <dct:title xml:lang="it">LandVoc - il tesauro connesso alla governance della terra</dct:title>
+    <dct:title xml:lang="pt">LandVoc - O léxico de ligação em governança da terra</dct:title>
+    
+	<dct:description xml:lang="en">LandVoc is the standardized vocabulary for concepts relating to land governance, curated by the Land Portal Foundation.</dct:description>
+    <dct:description xml:lang="es">LandVoc es un vocabulario estandarizado de conceptos relativos a  la gobernanza de la tierra, seleccionado y organizado por Land Portal Foundation.</dct:description>
+    <dct:description xml:lang="it">LandVoc è un vocabolario standardizzato di concetti relativi alla governance della terra, a cura della Land Portal Foundation.</dct:description>
+    <dct:description xml:lang="pt">LandVoc é o vocabulário padrão para conceitos relativos à governança da terra, com a curadoria da Land Portal Foundation.</dct:description>
+
     <dct:creator rdf:resource="http://aims.fao.org"/>
+    <dct:creator rdf:resource="http://www.landportal.info"/>
+
     <dc:contributor>Laura Meggiolaro</dc:contributor>
     <dc:contributor>Lisette Meij</dc:contributor>
+    <dc:contributor>Vittoria Ruggiero</dc:contributor>
+    <dc:contributor>Gerard Ciparisse</dc:contributor>
+    <dc:contributor>Natalia Vaccarezza</dc:contributor>
+    <dc:contributor>Henrique Pires dos Santos</dc:contributor>
+    <dc:contributor>Carlos Tejo</dc:contributor>
+    <dct:contributor rdf:resource="http://www.opendevelopmentmekong.net"/>
+    <dct:contributor rdf:resource="http://aims.fao.org"/>
+    <dct:contributor rdf:resource="http://www.landportal.info"/>
+
     <dct:publisher rdf:resource="https://www.fao.org"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:created>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:issued>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+
     <foaf:homepage rdf:resource="http://www.landportal.info/voc"/>
-    <dct:subject>Land rights</dct:subject> <!-- FIXME change to AGROVOC / DBpedia URLs -->
+	
+	<dct:subject>Land</dct:subject>
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Land"/>	
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_4172"/>
+    <dct:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/4599"/>
+
+	<dct:subject>Land rights</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_37898"/>
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Human_rights"/>
+	
     <dct:subject>Human rights</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_37883" />
+	
     <dct:subject>Land grabbing</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_cc39a497" />
+
     <dct:subject>Land governance</dct:subject>
-    <dct:subject>Open Data</dct:subject>
-    <dct:subject>Linked Data</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_aca7ac6d" />
+	
     <dct:subject>Land concentration</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_8654e90e" />
+	
     <dct:subject>Farming</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_2807" />
+	
     <dct:subject>Urbanization</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_8088" />
+	
     <dct:subject>Agriculture</dct:subject>
-    <dct:subject>Farmers</dct:subject>
-    <dct:subject>Womens rights</dct:subject>
-    <dct:subject>Access to land</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_203" />
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Agriculture" />
+    
+	<dct:subject>Farmers</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_2805" />
+    
+	<dct:subject>Womens rights</dct:subject>
+    <dct:subject rdf:resource="http://dbpedia.org/resource/Women's_rights" />
+    
+	<dct:subject>Access to land</dct:subject>
+    <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_9000090" />
+
     <owl:versionInfo>1.0</owl:versionInfo>
     <void:sparqlEndpoint rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc"/>
   </rdf:Description>
