@@ -33,7 +33,14 @@
     <dc:contributor>Natalia Vaccarezza</dc:contributor>
     <dc:contributor>Henrique Pires dos Santos</dc:contributor>
     <dc:contributor>Carlos Tejo</dc:contributor>
-    <dct:contributor rdf:resource="http://www.opendevelopmentmekong.net"/>
+    <dc:contributor>Open Development Mekong</dc:contributor> <!-- <dct:contributor rdf:resource="http://www.opendevelopmentmekong.net"/> -->
+    <dc:contributor>The Regional Center for Social Science and Sustainable Development (RCSD)</dc:contributor> <!-- <dct:contributor rdf:resource="http://rcsd.soc.cmu.ac.th/" /> -->
+    <dc:contributor>Chiang Mai University</dc:contributor> <!-- <dct:contributor rdf:resource="www.cmu.ac.th" /> -->
+    <dc:contributor>Open Development Cambodia</dc:contributor> <!--<dct:contributor rdf:resource="http://www.opendevelopmentcambodia.net/" />-->
+    <dc:contributor>Open Development Vietnam</dc:contributor>
+    <dc:contributor>Open Development Myanmar</dc:contributor>
+
+
     <dct:contributor rdf:resource="http://aims.fao.org"/>
     <dct:contributor rdf:resource="http://www.landportal.info"/>
 
