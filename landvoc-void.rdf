@@ -15,11 +15,13 @@
     <dct:title xml:lang="es">LandVoc - el tesauro de datos enlazados sobre gobernanza de la tierra</dct:title>
     <dct:title xml:lang="it">LandVoc - il tesauro connesso alla governance della terra</dct:title>
     <dct:title xml:lang="pt">LandVoc - O léxico de ligação em governança da terra</dct:title>
+	<dct:title xml:lang="fr">LandVoc - le thésaurus connecté de la gourvernance foncière</dct:title>
     
 	<dct:description xml:lang="en">LandVoc is the standardized vocabulary for concepts relating to land governance, curated by the Land Portal Foundation.</dct:description>
     <dct:description xml:lang="es">LandVoc es un vocabulario estandarizado de conceptos relativos a  la gobernanza de la tierra, seleccionado y organizado por Land Portal Foundation.</dct:description>
     <dct:description xml:lang="it">LandVoc è un vocabolario standardizzato di concetti relativi alla governance della terra, a cura della Land Portal Foundation.</dct:description>
     <dct:description xml:lang="pt">LandVoc é o vocabulário padrão para conceitos relativos à governança da terra, com a curadoria da Land Portal Foundation.</dct:description>
+    <dct:description xml:lang="fr">LandVoc est le vocabulaire standardisé pour les concepts relatifs à la gouvernance foncière, geré par la Land Portal Foundation.</dct:description>
 
     <dct:creator rdf:resource="http://aims.fao.org"/>
     <dct:creator rdf:resource="http://www.landportal.info"/>
