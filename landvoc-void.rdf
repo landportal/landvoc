@@ -8,7 +8,7 @@
     xmlns:void="http://rdfs.org/ns/void#"
 >
 
-  <rdf:Description rdf:about="http://www.landportal.info/voc/LandVoc">
+  <rdf:Description rdf:about="http://www.landportal.info/voc/landvoc">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     
 	<dct:title xml:lang="en">LandVoc - the Linked Land Governance Thesaurus</dct:title>
@@ -49,7 +49,7 @@
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:issued>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 
-    <foaf:homepage rdf:resource="http://www.landportal.info/voc"/>
+    <foaf:homepage rdf:resource="http://www.landportal.info/voc/landvoc"/>
 	
 	<dct:subject>Land</dct:subject>
     <dct:subject rdf:resource="http://dbpedia.org/resource/Land"/>	
