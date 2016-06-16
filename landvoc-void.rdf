@@ -56,7 +56,7 @@
     <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_4172"/>
     <dct:subject rdf:resource="http://www.eionet.europa.eu/gemet/concept/4599"/>
 
-	<dct:subject>Land rights</dct:subject>
+    <dct:subject>Land rights</dct:subject>
     <dct:subject rdf:resource="http://aims.fao.org/aos/agrovoc/c_37898"/>
     <dct:subject rdf:resource="http://dbpedia.org/resource/Human_rights"/>
 	
