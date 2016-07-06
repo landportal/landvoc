@@ -40,41 +40,6 @@
     <dct:contributor rdf:resource="http://vietnam.opendevelopmentmekong.net/" />
     <dct:contributor rdf:resource="http://myanmar.opendevelopmentmekong.net/" />
 
-    <foaf:Organization rdf:about="http://aims.fao.org">
-      <foaf:homepage rdf:resource="http://aims.fao.org/"/>
-      <foaf:mbox rdf:resource="mailto:AIMS@fao.org"/>
-    </foaf:Organization>
-
-    <foaf:Organization rdf:about="http://www.opendevelopmentmekong.net/">
-      <foaf:homepage rdf:resource="http://www.opendevelopmentmekong.net/"/>
-      <foaf:name>Open Development Mekong</foaf:name>
-    </foaf:Organization>
-
-    <foaf:Organization rdf:about="http://rcsd.soc.cmu.ac.th/">
-      <foaf:homepage rdf:resource="http://rcsd.soc.cmu.ac.th/"/>
-      <foaf:name>The Regional Center for Social Science and Sustainable Development (RCSD)</foaf:name>
-    </foaf:Organization>
-
-    <foaf:Organization rdf:about="http://www.cmu.ac.th">
-      <foaf:homepage rdf:resource="http://www.cmu.ac.th"/>
-      <foaf:name>Chiang Mai University</foaf:name>
-    </foaf:Organization>
-
-    <foaf:Organization rdf:about="http://cambodia.opendevelopmentmekong.net/">
-      <foaf:homepage rdf:resource="http://cambodia.opendevelopmentmekong.net/"/>
-      <foaf:name>Open Development Cambodia</foaf:name>
-    </foaf:Organization>
-
-    <foaf:Organization rdf:about="http://vietnam.opendevelopmentmekong.net/">
-      <foaf:homepage rdf:resource="http://vietnam.opendevelopmentmekong.net/"/>
-      <foaf:name>Open Development Vietnam</foaf:name>
-    </foaf:Organization>
-
-    <foaf:Organization rdf:about="http://myanmar.opendevelopmentmekong.net/">
-      <foaf:homepage rdf:resource="http://myanmar.opendevelopmentmekong.net/"/>
-      <foaf:name>Open Development Myanmar</foaf:name>
-    </foaf:Organization>
-
     <dct:contributor rdf:resource="http://aims.fao.org"/>
     <dct:contributor rdf:resource="http://www.landportal.info"/>
 
@@ -128,4 +93,38 @@
     <owl:versionInfo>1.0</owl:versionInfo>
     <void:sparqlEndpoint rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc"/>
   </rdf:Description>
+  <foaf:Organization rdf:about="http://aims.fao.org">
+    <foaf:homepage rdf:resource="http://aims.fao.org/"/>
+    <foaf:mbox rdf:resource="mailto:AIMS@fao.org"/>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://www.opendevelopmentmekong.net/">
+    <foaf:homepage rdf:resource="http://www.opendevelopmentmekong.net/"/>
+    <foaf:name>Open Development Mekong</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://rcsd.soc.cmu.ac.th/">
+    <foaf:homepage rdf:resource="http://rcsd.soc.cmu.ac.th/"/>
+    <foaf:name>The Regional Center for Social Science and Sustainable Development (RCSD)</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://www.cmu.ac.th">
+    <foaf:homepage rdf:resource="http://www.cmu.ac.th"/>
+    <foaf:name>Chiang Mai University</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://cambodia.opendevelopmentmekong.net/">
+    <foaf:homepage rdf:resource="http://cambodia.opendevelopmentmekong.net/"/>
+    <foaf:name>Open Development Cambodia</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://vietnam.opendevelopmentmekong.net/">
+    <foaf:homepage rdf:resource="http://vietnam.opendevelopmentmekong.net/"/>
+    <foaf:name>Open Development Vietnam</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://myanmar.opendevelopmentmekong.net/">
+    <foaf:homepage rdf:resource="http://myanmar.opendevelopmentmekong.net/"/>
+    <foaf:name>Open Development Myanmar</foaf:name>
+  </foaf:Organization>
 </rdf:RDF>
