@@ -47,7 +47,7 @@
     <dct:publisher rdf:resource="https://www.fao.org"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:created>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:issued>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
 
     <foaf:homepage rdf:resource="http://www.landportal.info/voc/landvoc"/>
 	
