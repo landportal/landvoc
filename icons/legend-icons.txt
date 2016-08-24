@@ -1,0 +1,19 @@
+THEMES
+======
+1 Forestry
+2 Indigenous and Community Land Rights
+3 Land and Food Security
+4 Land and Gender
+5 Land Conflicts
+6 Land Stakeholders and Institutions
+7 Land, Climate Change and Environment
+8 Commercial Pressures on Land
+9 Rangelands, Drylands and Pastoralism
+10 Urbanization
+11 Socio-Economic & Institutional Context
+
+OVERARCHING CATEGORIES
+======================
+12 Access to Land & Tenure Security
+13 Land policy & Legislation
+14 Land use, Management & Investment
