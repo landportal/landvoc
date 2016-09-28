@@ -8,7 +8,7 @@
     xmlns:void="http://rdfs.org/ns/void#"
 >
 
-  <rdf:Description rdf:about="http://www.landportal.info/voc/landvoc">
+  <rdf:Description rdf:about="http://landportal.info/voc/landvoc">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     
     <dct:title xml:lang="en">LandVoc - the Linked Land Governance Thesaurus</dct:title>
@@ -24,7 +24,7 @@
     <dct:description xml:lang="fr">LandVoc est le vocabulaire standardisé pour les concepts relatifs à la gouvernance foncière, geré par la Land Portal Foundation.</dct:description>
 
     <dct:creator rdf:resource="http://aims.fao.org"/>
-    <dct:creator rdf:resource="http://www.landportal.info"/>
+    <dct:creator rdf:resource="http://landportal.info"/>
 
     <dc:contributor>Laura Meggiolaro</dc:contributor>
     <dc:contributor>Lisette Meij</dc:contributor>
@@ -41,14 +41,14 @@
     <dct:contributor rdf:resource="http://myanmar.opendevelopmentmekong.net/" />
 
     <dct:contributor rdf:resource="http://aims.fao.org"/>
-    <dct:contributor rdf:resource="http://www.landportal.info"/>
+    <dct:contributor rdf:resource="http://landportal.info"/>
 
     <dct:publisher rdf:resource="https://www.fao.org"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:created>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:issued>
     <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
 
-    <foaf:homepage rdf:resource="http://www.landportal.info/voc/landvoc"/>
+    <foaf:homepage rdf:resource="http://landportal.info/voc/landvoc"/>
 	
     <dc:subject>Land</dc:subject>
     <dct:subject rdf:resource="http://dbpedia.org/resource/Land"/>	
