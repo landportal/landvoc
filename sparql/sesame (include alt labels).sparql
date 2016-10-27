@@ -1,0 +1,88 @@
+# Gets prefLabel, altLabels and definitions of LandVoc concepts (the ones that are in the scheme)
+# Languages: English (en), French (fr), Spanish (es), Portuguese (pt)
+
+# agrovoc prefix asgv
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://aims.fao.org/aos/agrovoc/>
+
+SELECT * WHERE {
+   ?concept rdf:type skos:Concept .
+   ?concept skos:inScheme <http://voc.landportal.info/landterms> .
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLEN .
+       _:prefLEN skosxl:literalForm ?enLabel .
+       FILTER ( lang(?enLabel) = "en" ) .    
+   }
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLES .
+      _:prefLES skosxl:literalForm ?esLabel .
+      FILTER ( lang(?esLabel) = "es" ) .    
+   }                        
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLFR .
+      _:prefLFR skosxl:literalForm ?frLabel .
+      FILTER ( lang(?frLabel) = "fr" ) .    
+   } 
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLPT .
+      _:prefLPT skosxl:literalForm ?ptLabel .
+      FILTER ( lang(?ptLabel) = "pt" ) .    
+   }                           
+
+   OPTIONAL {
+       ?concept skosxl:altLabel _:altLEN .
+       _:altLEN skosxl:literalForm ?enAltLabel .
+       FILTER ( lang(?enAltLabel) = "en" ) .    
+   }
+
+   OPTIONAL {
+       ?concept skosxl:altLabel _:altLES .
+      _:altLES skosxl:literalForm ?esAltLabel .
+      FILTER ( lang(?esAltLabel) = "es" ) .    
+   }                        
+
+   OPTIONAL {
+       ?concept skosxl:altLabel _:altLFR .
+      _:altLFR skosxl:literalForm ?frAltLabel .
+      FILTER ( lang(?frAltLabel) = "fr" ) .    
+   } 
+
+   OPTIONAL {
+       ?concept skosxl:altLabel _:altLPT .
+      _:altLPT skosxl:literalForm ?ptAltLabel .
+      FILTER ( lang(?ptAltLabel) = "pt" ) .    
+   }                           
+
+   
+   OPTIONAL {
+       ?concept   skos:definition _:defEN .      
+       _:defEN rdf:value ?defEN .
+       FILTER ( lang(?defEN) = "en" ) .      
+   }       
+
+   OPTIONAL {
+       ?concept   skos:definition _:defES .      
+       _:defES rdf:value ?defES .
+       FILTER ( lang(?defES) = "es" ) .      
+   }          
+
+   OPTIONAL {
+       ?concept   skos:definition _:defFR .      
+       _:defFR rdf:value ?defFR .
+       FILTER ( lang(?defFR) = "fr" ) .      
+   }          
+
+   OPTIONAL {
+       ?concept   skos:definition _:defPT .
+       _:defPT rdf:value ?defPT .
+       FILTER ( lang(?defPT) = "pt" ) .      
+   }          
+
+}
