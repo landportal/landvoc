@@ -1,8 +1,9 @@
-# Query to retrieve the RDF for the 269 terms of the LandVoc
+# Query to retrieve the RDF for the 269 terms of the LandVoc (268 from Agrovoc + "Open Data")
 
 DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_ee93bbbe>
-<http://aims.fao.org/aos/agrovoc/c_1410424255662><http://aims.fao.org/aos/agrovoc/c_196>
+<http://aims.fao.org/aos/agrovoc/c_1410424255662>
+<http://aims.fao.org/aos/agrovoc/c_196>
 <http://aims.fao.org/aos/agrovoc/c_7193>
 <http://aims.fao.org/aos/agrovoc/c_28633>
 <http://aims.fao.org/aos/agrovoc/c_4bd6790a>
@@ -24,7 +25,6 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_a9966ac9>
 <http://aims.fao.org/aos/agrovoc/c_958edb9d>
 <http://aims.fao.org/aos/agrovoc/c_1666>
-<http://aims.fao.org/aos/agrovoc/c_599d2e5c>
 <http://aims.fao.org/aos/agrovoc/c_9000021>
 <http://aims.fao.org/aos/agrovoc/c_0eca1c57>
 <http://aims.fao.org/aos/agrovoc/c_931da360>
@@ -34,7 +34,6 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_9000022>
 <http://aims.fao.org/aos/agrovoc/c_de048871>
 <http://aims.fao.org/aos/agrovoc/c_778a14cf>
-<http://aims.fao.org/aos/agrovoc/c_1782>
 <http://aims.fao.org/aos/agrovoc/c_9024771d>
 <http://aims.fao.org/aos/agrovoc/c_41b77c02>
 <http://aims.fao.org/aos/agrovoc/c_16532>
@@ -46,6 +45,7 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_ffd74ae5>
 <http://aims.fao.org/aos/agrovoc/c_1839>
 <http://aims.fao.org/aos/agrovoc/c_7a25baee>
+<http://aims.fao.org/aos/agrovoc/c_599d2e5c>
 <http://aims.fao.org/aos/agrovoc/c_28663>
 <http://aims.fao.org/aos/agrovoc/c_cd44c0b3>
 <http://aims.fao.org/aos/agrovoc/c_10222>
@@ -94,6 +94,7 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_92332>
 <http://aims.fao.org/aos/agrovoc/c_8b624d6a>
 <http://aims.fao.org/aos/agrovoc/c_b3864149>
+<http://aims.fao.org/aos/agrovoc/c_50226>
 <http://aims.fao.org/aos/agrovoc/c_25243>
 <http://aims.fao.org/aos/agrovoc/c_bac66d94>
 <http://aims.fao.org/aos/agrovoc/c_97241aeb>
@@ -121,7 +122,6 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_298db0d3>
 <http://aims.fao.org/aos/agrovoc/c_1662>
 <http://aims.fao.org/aos/agrovoc/c_8654e90e>
-<http://aims.fao.org/aos/agrovoc/c_6f79699c>
 <http://aims.fao.org/aos/agrovoc/c_e236b2b1>
 <http://aims.fao.org/aos/agrovoc/c_4173>
 <http://aims.fao.org/aos/agrovoc/c_37897>
@@ -131,6 +131,7 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_b317eba8>
 <http://aims.fao.org/aos/agrovoc/c_4174>
 <http://aims.fao.org/aos/agrovoc/c_1ada969a>
+<http://aims.fao.org/aos/agrovoc/c_6f79699c>
 <http://aims.fao.org/aos/agrovoc/c_37734>
 <http://aims.fao.org/aos/agrovoc/c_28716>
 <http://aims.fao.org/aos/agrovoc/c_25195>
@@ -153,15 +154,14 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_4178>
 <http://aims.fao.org/aos/agrovoc/c_9000098>
 <http://aims.fao.org/aos/agrovoc/c_7bea427c>
-<http://aims.fao.org/aos/agrovoc/c_e6067b76>
 <http://aims.fao.org/aos/agrovoc/c_37898>
+<http://aims.fao.org/aos/agrovoc/c_e6067b76>
 <http://aims.fao.org/aos/agrovoc/c_15d85712>
 <http://aims.fao.org/aos/agrovoc/c_a79c0bb8>
 <http://aims.fao.org/aos/agrovoc/c_15992>
 <http://aims.fao.org/aos/agrovoc/c_4180>
 <http://aims.fao.org/aos/agrovoc/c_c48aca78>
 <http://aims.fao.org/aos/agrovoc/c_12069>
-<http://aims.fao.org/aos/agrovoc/c_66afb052>
 <http://aims.fao.org/aos/agrovoc/c_66afb052>
 <http://aims.fao.org/aos/agrovoc/c_119678e7>
 <http://aims.fao.org/aos/agrovoc/c_a4f67d48>
@@ -243,8 +243,8 @@ DESCRIBE
 <http://aims.fao.org/aos/agrovoc/c_36580>
 <http://aims.fao.org/aos/agrovoc/c_bdedf48c>
 <http://aims.fao.org/aos/agrovoc/c_f73955fb>
-<http://aims.fao.org/aos/agrovoc/c_28775>
 <http://aims.fao.org/aos/agrovoc/c_330886>
+<http://aims.fao.org/aos/agrovoc/c_28775>
 <http://aims.fao.org/aos/agrovoc/c_cc3d0c47>
 <http://aims.fao.org/aos/agrovoc/c_a9e7dd7f>
 <http://aims.fao.org/aos/agrovoc/c_b769471e>
