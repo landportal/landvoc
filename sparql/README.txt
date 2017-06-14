@@ -3,7 +3,7 @@ NOTES
 
 - Copy and paste the link in your browser
 - Working: Link to a Sesame workbench where there is information about LandVoc http://agrovoc.mimos.my/openrdf-workbench/ (after that, select the repository)
-- Not working: Official SPARQL endpoint of Agrovoc: http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc#query (There is no data about LandVoc. Search for skos:ConceptScheme)
+- Official SPARQL endpoint of Agrovoc: http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc#query (There is no data about LandVoc. Search for skos:ConceptScheme)
 
 
 Repository: agrovoc_2016-01-21_core
