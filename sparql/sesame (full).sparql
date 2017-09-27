@@ -56,7 +56,7 @@ SELECT * WHERE {
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLTH .
-      _:prefLHT skosxl:literalForm ?thLabel .
+      _:prefLTH skosxl:literalForm ?thLabel .
       FILTER ( lang(?thLabel) = "th" ) .    
    }                           
 
