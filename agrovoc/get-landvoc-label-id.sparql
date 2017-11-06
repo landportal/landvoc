@@ -1,0 +1,10 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT (str(?label) as ?label) ?conceptID 
+FROM <http://landvoc.landportal.info>
+WHERE {
+   ?conceptURI a skos:Concept;
+      skos:prefLabel ?label.
+   FILTER (lang(?label) = 'en')
+   BIND (REPLACE(STR(?conceptURI ), "http://aims.fao.org/aos/agrovoc/","") AS ?conceptID)
+} ORDER BY ?label
