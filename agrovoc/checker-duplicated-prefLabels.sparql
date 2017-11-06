@@ -1,0 +1,40 @@
+# Gets concepts with more than one prefLabel (skos-xl:prefLabel) in a language for a concept
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
+PREFIX : <http://aims.fao.org/aos/agrovoc/>
+        
+SELECT DISTINCT ?concept ?lang WHERE {
+   ?concept rdf:type skos:Concept . 
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLabel .
+       _:prefLabel skosxl:literalForm ?label ;
+	             vocbench:hasStatus "Published" .
+       BIND (lang(?label) AS ?lang) 
+   }
+} GROUP BY ?concept ?lang
+HAVING (COUNT(?concept) >1)
+
+##############################################################
+
+# Gets concepts with more than one prefLabel (skos:prefLabel) in a language for a concept
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
+PREFIX : <http://aims.fao.org/aos/agrovoc/>
+        
+SELECT DISTINCT ?concept ?lang WHERE {
+   ?concept rdf:type skos:Concept . 
+
+   OPTIONAL {
+       ?concept skos:prefLabel ?label ;
+	             vocbench:hasStatus "Published" .
+       BIND (lang(?label) AS ?lang) 
+   }
+} GROUP BY ?concept ?lang
+HAVING (COUNT(?concept) >1)
