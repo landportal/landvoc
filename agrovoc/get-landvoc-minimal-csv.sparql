@@ -1,0 +1,81 @@
+# Gets prefLabel of LandVoc concepts (the ones that are in the scheme)
+# Languages: English (en), French (fr), Spanish (es), Portuguese (pt), Khmer aka Cambodian (km), Vietnamese (vi), Burmese (my), Thai (th)
+
+# agrovoc prefix asgv
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
+PREFIX : <http://aims.fao.org/aos/agrovoc/>
+        
+
+SELECT DISTINCT ?concept ?enLabel ?esLabel ?frLabel ?ptLabel ?kmLabel ?viLabel ?myLabel ?thLabel ?zhLabel WHERE {
+   ?concept rdf:type skos:Concept ;
+            skos:inScheme <http://voc.landportal.info/landterms> ;
+			vocbench:hasStatus "Published" .
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLEN .
+       _:prefLEN skosxl:literalForm ?enLabel ;
+	             vocbench:hasStatus "Published" .
+       FILTER ( lang(?enLabel) = "en" ) .    
+   }
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLES .
+      _:prefLES skosxl:literalForm ?esLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?esLabel) = "es" ) .    
+   }                        
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLFR .
+      _:prefLFR skosxl:literalForm ?frLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?frLabel) = "fr" ) .    
+   } 
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLPT .
+      _:prefLPT skosxl:literalForm ?ptLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?ptLabel) = "pt" ) .    
+   }                           
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLKM .
+      _:prefLKM skosxl:literalForm ?kmLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?kmLabel) = "km" ) .    
+   }                           
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLVI .
+      _:prefLVI skosxl:literalForm ?viLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?viLabel) = "vi" ) .    
+   }                           
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLMY .
+      _:prefLMY skosxl:literalForm ?myLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?myLabel) = "my" ) .    
+   }                           
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLTH .
+      _:prefLTH skosxl:literalForm ?thLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?thLabel) = "th" ) .    
+   }
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:prefLZH .
+      _:prefLZH skosxl:literalForm ?zhLabel ;
+	            vocbench:hasStatus "Published" .
+      FILTER ( lang(?zhLabel) = "zh" ) .    
+   }
+
+} ORDER BY ?concept
