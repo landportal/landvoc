@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" >
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_aca7ac6d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Gobernanza de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gouvernance foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land governance</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Governança da terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_b317eba8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land delivery</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">production foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Entrega de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Entrega de tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_57156ff8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land readjustment</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Reajuste de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Reajustamento fundiário</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">réaffectation des terres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a79c0bb8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Loteamento</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">allocation des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land subdivision</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Subdivisión de la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_0543301f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">morcellement des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land fragmentation</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Fragmentação de parcelas (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Fragmentación de la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_b972e0ea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">en pleine propriété</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">freehold</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Propriedade plena e livre de encargos</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Propiedad plena y libre</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_0eca1c57">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">codification</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">codification</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">codificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Codificação</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_10391">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">natural disasters</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desastres naturales</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Catastrophe naturelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Catástrofe natural</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_13609">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Posesión</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">property</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Possession</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Imóvel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1782">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">common lands</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terras comunitárias</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Tierras comunales</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Terre communale</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1798">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Expropriação</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">expropriation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Expropriation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Expropiación</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2204">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Desertificação</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desertificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">desertification</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Désertification</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_24843">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">terrain forestier</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forest land</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terra florestal</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">tierras forestales</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2593">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Ambiente</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Environnement</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Medio ambiente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">environment</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2805">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Agriculteur</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">farmers</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Agricultores</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Agricultor</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2807">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Sistemas de explotación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">farming systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Système d&#39;exploitation agricole</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Sistema de exploração agrícola</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2808">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Tierras agrícolas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">farmland</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terra agrícola</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Terre agricole</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28663">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Comportement déviant</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Comportamento delinquente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">delinquent behaviour</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Conducta delictiva</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28718">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land ownership</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Propriedade da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Propriété foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Propiedad de la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28784">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Usufructo</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Usufruto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">usufruct</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Usufruit</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2934">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">fisheries</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pêches</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Pesca</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Pesca</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_298db0d3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">espace foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land area</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Área de terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">área de tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3055">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">foresterie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forestry</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">ciencias forestales</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Actividade florestal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_331524">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Pessoas indígenas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">peuple autochtone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">indigenous peoples</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">pueblos indígenas</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_35332">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Développement durable</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">sustainable development</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desarrollo sostenible</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Desenvolvimento sustentável</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37898">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Droit foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derechos de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito fundiário</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land rights</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4172">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Terre</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4182">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Uso da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Utilisation des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Utilización de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land use</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4240">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Bail</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">leases</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Arrendamiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Arrendamento</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_49983">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">minería</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">industrie minière</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Indústria mineira</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mining</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6151">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Pobreza</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">poverty</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pauvreté</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Pobreza</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6513">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Investigación</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Investigação</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">research</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Recherche</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6701">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Développement rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desarrollo rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Desenvolvimento rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">rural development</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8420">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Mujeres</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Femme</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">women</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Mulher</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8491">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Juventude</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">youth</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Juventud</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Jeunesse</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000022">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Propriedade comum</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Propriété commune</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Propiedad comunal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">common property</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000115">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">natural resources management</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Gestão de recursos naturais</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">ordenación de recursos naturales</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gestion des ressources naturelles</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9001019">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Suburbio</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">taudis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">slums</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Bairro de lata</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_c48aca78">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land tenants</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">locataire foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Arrendatários de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">arrendatarios de tierras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1dfe5bfe">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Equidad de género en el acceso a la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">gender equity in access to land</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Equidade de género no acesso à terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">la parité hommes-femmes en matière d’accès à la terre</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_653f04fe">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">pastoralists</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">éleveurs</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Pastoralistas</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Pecuários; Pastores</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_119678e7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Titulação de propriedade de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Titulación de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land titling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">immatriculation des terres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_65c7772b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">displacement</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Deslocação</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desplazamiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">déplacement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_666dbc26">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Negocios de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land deals</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Negócios de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">acquisition des terres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_ff890f6b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Direitos comunitários sobre a terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">community land rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droits fonciers collectifs</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derechos sobre tierras comunales</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8b624d6a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">Global Land Indicator Initiative</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Iniciativa de Indicadores Globales sobre la Tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Iniciativa Global Land Indicator</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Initiative mondiale land indicator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_e6067b76">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land rights activists</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Activistas em direitos fundiários</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Activistas por el derecho a la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">militants du droit à la terre</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_ccc27fe2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">palm oil industries</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Industrias de la palma aceitera</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Indústrias de óleo de palma</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">l&#39;industrie de l&#39;huile de palme</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a1b5abd0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droit au logement</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derechos de vivienda</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">housing rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito à habitação</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_d42b49e7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Derechos sobre tierras indígenas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">indigenous land rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos das terras indígenas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droits fonciers des peuples autochtones</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_ba3b2ea7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">implantations sauvages</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Assentamentos informais</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">informal settlements</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Asentamientos informales</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_781deefb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Desposesión</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">dispossession</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Desapropriação</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">expropriation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_5d3b8015">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Industrias extractivas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">extractive industries</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Indústrias extrativas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">industries extractives</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_34ea1b1e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Ocupantes</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">squatteur</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Ocupantes (ilegales)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">squatters</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_56c34d4d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">customary tenure</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Posse consuetudinária</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">régime coutumier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Tenencia consuetudinaria</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6f79699c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land dispute resolution</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Conflitos de terra ou resolução de litígios.</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Resolución de disputas por la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">résolution des conflits fonciers</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_bdedf48c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Uso sustentável da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">sustainable land use</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">utilisation durable des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Uso sostenible de la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_95fedfc9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Adquisición obligatoria</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">acquisition obligatoire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">compulsory acquisitions</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Aquisição compulsória</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a4f67d48">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Transacciones de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land transactions</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Transações de terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">transactions foncières</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1464c114">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">allocation des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land allocation</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Alocação de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Asignación de tierras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_dfbaecdf">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">formal tenure</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Tenencia formal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droits fonciers formels</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Posse formal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_cc3d0c47">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">régularisation foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">tenure regularization</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Regularización de la tenencia</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Regularização do arrendamento rural</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6120d7bc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Registro de escrituras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">enregistrement de l’acte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">deed registration</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Registro de escritura</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_434cfdd6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">pluralisme juridique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">legal pluralism</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Pluralismo legal</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Pluralismo jurídico</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_ffd74ae5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Continuidade no direito à terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">continuum des droits fonciers</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">continuum of land rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Continuidad en el derecho a la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_72dd6860">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Avaliação de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land valuation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">évaluation foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Valoración de tierras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_0cc6c485">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">trust</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ressources financières</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Fideicomiso</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Fideicomisso</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_dc5739ab">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Tenencia legal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droits statutaires</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Posse legal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">statutory tenure</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_34fdb55c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">Islamic law</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">loi islamique</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Ley islámica</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Lei islâmica</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_16112">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Sistema agropastoril</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Système agropastoral</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Sistemas agropascícolas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agropastoral systems</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_d774aa00">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">administración catastral</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cadastral administration</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Administração cadastral</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">administration cadastrale</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_29157">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Propriedade colectiva</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Propriété collective</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">collective ownership</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Propiedad colectiva</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1666">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Changement climatique</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Mudança de clima</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Cambio climático</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">climate change</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_958edb9d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">CEDAW</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">CEDEF</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">CEDAW</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">CEDAW</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_599d2e5c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">copropriété</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">copropiedad</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos de co-propriedade</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">co-ownership rights</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_330982">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Sistemas agroflorestais</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agroforestry systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">sistemas agroforestales</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">systèmes agroforestiers</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4bd6790a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">agricultural land management</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">gestión de tierras agricolas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gestion de terre agricole</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Gestão de solos agrícolas</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_ceb73ce1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Alienação (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">enajenación (de la tierra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">aliénation (terrain)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">alienation (land)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8c6882ab">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">cesión del arrendamiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Atribuição (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">assignment (land)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">transfert de droits (tenure foncière)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_b4d51db0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">registro catastral</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Cadastro predial</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">registre cadastral</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cadastral register</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a9966ac9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">valor de capital (tierra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">capital value (land)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">valeur du bien (foncier)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Valor do capital (terra)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_931da360">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">collatéral (bien foncier)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">collateral (land)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Garantia (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">garantía (fundo)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_de048871">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">common rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos de uso comum (terras)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Droit d&#39;utilisation commune</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">régimen comunal (de tierras)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_778a14cf">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">commons</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">bienes comunes</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Bens comuns</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">biens communs</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9024771d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">propiedad comunal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">communaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">communal ownership</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Propriedade comunitária</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_41b77c02">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">territorio comunal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">communal territory</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Território comunitário</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">territoire communal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_357653f9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">concession (foncière)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">concesión (fundo)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Concessão (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">concession (land)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_854e9e62">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">conflicto de interés</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">conflict of interest</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Conflito de interesses</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">conflit d&#39;intérêts</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7a25baee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">control rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit de contrôle</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos de control</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos de controlo</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_cd44c0b3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droit foncier coutumier</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito consuetudinário sobre a terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos tradicionales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">customary land rights</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_c10cdeb5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">disposition légale</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Escritura</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">escritura</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">deed</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_cbe171b4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">reclamación de indemnización</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">disturbance</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Pedido de indemnização</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">demande de compensation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_f7cf8606">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">dote (tierra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Dote (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">dowry (land)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dot (terre)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_c208d7f3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Domínio eminente</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">domaine éminent</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">eminent domain</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">dominio eminente</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a245096c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">empiétement</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">invasión</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">encroachment</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Invasão</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_21323863">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">gestión de bienes</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Gestão da propriedade (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gestion de biens (fonciers)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">estate management</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_0b88a82c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">déguerpissement</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">desalojo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">eviction</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Despejo</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_dec8141f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">farm tenancy</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">arrendamiento de fincas</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Arrendamento agrícola</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fermage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8c59c597">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">forest law</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Legislação florestal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit forestier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">legislación forestal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3ffda84e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">free trade agreements</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">accord de libre échange commercial</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Acuerdos de libre comercio</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Acordos de comércio livre</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_b3864149">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Compras governamentais</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">achat gouvernemental</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">government purchases</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Compras gubernamentales</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_bac66d94">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Contratos de pastagem</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">contratos de pastoreo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">grazing contracts</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">contrat de pâturage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_97241aeb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">grazing land rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit sur les terres de parcours</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos de pastoreo</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos à terra de pastagem</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8dd43c79">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">illegal occupation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">occupation illégale</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">ocupación ilegal</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ocupação ilegal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_60fbd8f7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">expert indépendant</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Perito independente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">independent experts</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Expertos Independientes (litigios legales)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_86524ff8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">tierras indígenas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">indigenous lands</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terras indígenas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">territoire indigène</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1d4ea7db">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">propiedad informal</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Propriedade informal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">informal property</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">propriété informelle</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a291ae58">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Posse de terra indígena</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">tenencia de tierras indígenas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">indigenous tenure</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tenure foncière indigène</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_0d7ef890">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Fondos de inversión</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fonds d&#39;investissement</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Fundos de investimento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">investment funds</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_89d3dcbb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">adquisiciones de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">acquisition foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land acquisitions</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Aquisições de terras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8654e90e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">concentración de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land concentration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">concentration foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Concentração de terras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_e236b2b1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land conflicts</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">conflit foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">conflictos por la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Conflitos de terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1ada969a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">conflicto agrario</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Disputa por terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land dispute</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dispute foncière</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7ffc9d69">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">environnement foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Ambiente de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land environment</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ambiente da terra.</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_cc39a497">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">acaparamiento de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land grabbing</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">accaparement foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Apropriação de terras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_45ce1b52">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">acaparamiento de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">accaparement foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Confisco de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land grabs</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_70a14ab3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droit d&#39; héritage sur la terre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land inheritance rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos de herencia sobre la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos sobre terra por herança.</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9a4f48b4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land investments</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">investissement foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">inversiones en tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Investimentos em terras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_573abb9f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Direito fundiário</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land law</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">loi foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derecho agrario</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8b6d895f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land loans</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">prêt foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">préstamos de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Empréstimo de terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7bea427c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Renda da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">renta de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land rent</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rente foncière</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_15d85712">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Especulação fundiária</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land speculation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Especulación de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">spéculation foncière</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_66afb052">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">systèmes de tenure</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land tenure systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Sistemas de posse da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">modos de aprovechamiento</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9c0e84b3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">latifundium</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Latifúndio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">latifundium</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">latifundio</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_c1543349">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">legal empowerment</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">attribution du pouvoir légal</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Empoderamiento legal</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Atribuição de autorização legal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_d08b21b6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">territoire lignager</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lineage land</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">tierra de un linaje</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terras de linhagem</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_45cd8441">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Comunidade local</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">communauté locale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">local community</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">comunidad local</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_862db225">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">management rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit de gestion</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos de gestión</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos de gestão</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_64d8574a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droits patrilinéaires de la propriété</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">direitos de propriedade conjugal</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos de propiedad maritales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">marital property rights</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6b8a1f45">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">contrat de fumure</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">manure contract</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">contrato sobre abono natural</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Contrato de abastecimento de estrume</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a0982198">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">matrilineal</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Matrilinear</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">matrilinéaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">matrilineal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_f84a48c4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Reforma negociado da posse da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">negotiated land reform</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">réforme agraire négociée</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">reforma negociada de la tenencia de la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28e0dafa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">non indigenous peoples</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">População alóctone</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">foráneo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">population allochtone</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_72efbdb8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">notary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">notaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Notário</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">notario</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9044ce39">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Ocupação</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">ocupación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">occupation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">occupation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_51a39a94">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">libre acceso (espacio)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">open access (land)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">accès libre (territoire)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Acesso livre (terra)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_e5f9b786">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">orphans land rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos sobre la tierra de los huérfanos</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit des orphelins à la terre</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos dos órfãos à terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2ee25bd9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">plan parcellaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Plano de parcela</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">parcel plan</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">plan parcelario</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8e487587">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">tierras de pastoreo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">espace pastoral</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terras pastoris</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pastoral lands</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4d6b6100">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droit foncier pastoral</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos de pastagem</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pastoral land rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos agropastoriles</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_85dfd05c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Patrilinear</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">patrilinéaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">patrilineal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">patrilineal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_db4161cb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">perimeter (land)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">périmètre (terrain)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">perímetro (de la tierra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Perímetro (terra)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2f114c12">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">propriété personnelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Propriedade pessoal</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">propiedad personal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">personal property</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_f86e1a09">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">prescription</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Prescrição</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">prescription</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">prescripción</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28f78be5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">priest of the land</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">prêtre de la terre</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">maestro de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Encarregado de trabalhos</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1882e93f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">private forests</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">bosques privados</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Florestas privadas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">forêts privées</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_da192f3f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">derecho inmobiliario</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">property law</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito imobiliário</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit immobilier</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_bb4738d4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">reforms</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">réforme</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Reforma</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">reforma</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3b50d6b6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">régularisation d&#39; occupation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">regularization of illegal occupation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">regularización de ocupación</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Regularização da ocupação ilegal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_d190bc52">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">régularisation foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Regularização fundiária</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">regularization of ownership</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">regularización de tierras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_b3372020">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">rights in divorce</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos no divórcio</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derechos en el divorcio</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droits lors du divorce</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_62487b4a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droit de la hache</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito de desmatamento</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos de tala</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">rights of clearance</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9904d265">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droit du premier occupant</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito do primeiro ocupante</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">right of first occupancy</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derecho de primer ocupante</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9c081fdc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">derechos de prelación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit de préemption</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito de preferência</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pre-emption rights</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a6fdfb0e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">riparian rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos ribereños</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit du riverain</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos ribeirinhos ou ripários</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_c0a7f4fb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">bois sacré</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Floresta sagrada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">sacred woods</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">bosques sagrados</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_128d5eb6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Escala (cartografia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">échelle (cartographie)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">scale</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">escala</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7fc44e33">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Segurança da posse (de terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">security of tenure (land)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sécurité de tenure (foncière)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">reconocimiento de la posesión (de la tierra)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_31e765ad">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Servidão</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">servient tenement</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">servitude</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">predio sirviente</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_22d01a32">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Propriedade do estado</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">propiedad pública</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">state property</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">propriété publique</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_86cb818a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Lei estatutária</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">statute law</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit écrit de l&#39; état</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derecho escrito</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_26e30c73">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">surveyors</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Topógrafo, ou Geómetra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">géomètre</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">geómetra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_f73955fb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">tenedor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">tenant farmers</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tenancier</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Arrendatário (terra)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_a9e7dd7f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">territoire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">territory</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">territorio</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Território</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_b769471e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">titre foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Título de propriedade</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">titulo de propriedad</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">title deed</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7017dc39">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">sistema Torrens</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Torrens system</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Sistema Torrens</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">système Torrens</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9f542492">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">planification territoriale (villes et campagnes)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">town and country planning</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">plan de ordenamiento territorial</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Plano de ordenamento territorial</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_aa48855b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">transaction costs</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">coût de transaction</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">costos de transacción</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Custos de transação</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_0e0e555b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">baldíos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">unclaimed lands</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terras não reclamadas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">terres vacantes</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_945c9e82">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">droits d&#39; usage</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">use rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direitos de uso</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">derechos de uso</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_ecf20c17">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">abuso</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit de disposer</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">waste</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Abuso</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_88c1b116">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">vendeur potentiel</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Vendedor potencial</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">willing seller</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">vendedor voluntario</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000090">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Acesso à terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">acceso a la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land access</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">accès à la terre</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37277">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Paisaje agrícola</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Paisagem agrícola</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Paysage agricole</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agricultural landscape</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28633">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Legislação agrária</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agricultural and rural legislation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Legislación agraria</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Droit agricole et rural</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_195">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Política agrária</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Politique foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Política agraria</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land policies</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_196">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Réforme agraire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agrarian reform</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Reforma agrária</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Reforma agraria</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7193">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Estructura agraria</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Structure agraire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agrarian structure</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Estrutura agrária</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8532">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Ganadería</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Criação animal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">animal husbandry</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Élevage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_550">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Acuicultura</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Aquaculture</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Aquicultura</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">aquaculture</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_330588">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">espace</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Área (terra)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Área</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">area</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_330990">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Avaliação</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">assessment</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Evaluación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">évaluation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1177">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Cadastro</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Cadastre</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Catastros</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cadastres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000021">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Zona costeira</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">coastal area</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Zone côtière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Area costera</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1783">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Droit commun</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derecho común</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito comum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">common law</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_25243">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Pastoreo</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Pastoreio</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pâturage</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">grazing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3369">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Tierras de pastoreo</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Terra de pastoreio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">grazing lands</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Terre de pâturage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_16532">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">foresterie communautaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">community forestry</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Silvicultura comunitária</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">silvicultura comunitaria</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1791">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Indemnización</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Indemnização</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Indemnisation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">compensation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1839">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Agricultura contractual</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Agriculture contractuelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">contract farming</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Agricultura contratual</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_10222">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Droit coutumier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derecho consuetudinario</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">customary law</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito consuetudinário</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2143">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Descentralização</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">decentralization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Décentralisation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Descentralización</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_331049">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">development</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">développement</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Desenvolvimento</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desarrollo</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2224">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Agência de desenvolvimento</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Agencias de desarrollo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">development agencies</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Agence de développement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_36552">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">extensive land use</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Utilização extensiva da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Utilización extensiva de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Utilisation extensive des terres</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_36551">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">intensive land use</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Utilisation intensive des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Utilização intensiva da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Utilización intensiva de la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37175">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Organisation paysanne</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Organização de agricultores</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">farmers organizations</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Organizaciones de agricultores</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_2806">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Associação de agricultores</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Association d&#39;agriculteurs</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Asociaciones de agricultores</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">farmers associations</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1374158672853">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">conservation des forêts</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forest conservation</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Conservação da floresta</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">conservación de montes</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1374070277659">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Planos de ordenamento florestal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">plan d&#39;aménagement forestier</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forest management plans</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">planes de ordenación forestal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1374155312641">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">forest monitoring and assessment</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">evaluación de los recursos forestales</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">évaluation des ressources forestières</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Monitorização e avaliação dos reursos florestais</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3046">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Pastoreo en el bosque</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Pastoreio na floresta</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pâturage en forêt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forest grazing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28079">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Regulamentação florestal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Réglementation forestière</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forest regulations</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Reglamentación forestal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_92332">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">geomática</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">geomatics</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Geomática</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">géomatique</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3389">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Rente foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Renta fundiaria</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Renda fundiária</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">ground rent</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3870">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Impôt sur succession</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Impuesto sobre la herencia</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Imposto sucessório</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">inheritance tax</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4180">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land tax</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Impôt foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Impuesto a la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Imposto sobre propriedade da terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28717">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Amélioration foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Melhoramento fundiário</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Mejora de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land improvement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_15992">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Vocación de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land suitability</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Aptitude des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Aptidão da terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1662">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land clearing</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Limpeza do terreno</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Défrichement</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desmonte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37897">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">couverture du sol</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">cobertura de suelos</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Cobertura do solo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land cover</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_34823">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Degradação de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Degradación de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Dégradation des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land degradation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37734">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land distribution</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Distribución de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Distribution des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Distribuição da terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28716">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Desviación del uso de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land diversion</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Retrait des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Uso não agrícola da terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_25195">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Economía de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Economia da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Économie foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land economics</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000096">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Systèmes d&#39;information foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Sistema de informação de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Sistemas de información de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land information systems</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_35131">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Système d&#39;information géographique</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Sistemas de información geográfica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">geographical information systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Sistema de informação geográfica</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4173">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Emparcelamento</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Remembrement</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land consolidation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Concentración parcelaria</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4174">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Desenvolvimento terra (urbanização)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Desarrollo tierras (urbanización)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Développement foncier (urbanisme)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land development (urbanization)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_24866">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Ordenación de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land management</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Administração fundiária</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Gestion foncière</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4175">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land markets</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Marché foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Mercado de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Mercado fundiário</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4178">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land reform</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Reforma fundiária</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Réforme foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Reforma de la tenencia de la tierra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000098">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Registro de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Enregistrement foncier</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land registration</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Registro de terras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37899">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land use planning</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Ordenación territorial</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Aménagement du territoire</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ordenamento do território</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4184">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">landowners</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Proprietário rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Propietarios rurales</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Propriétaire foncier</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_330886">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">tenants</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Arrendatarios</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">locataires</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Arrendatário</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_29225">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Linhagem</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Lignée</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Linaje</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lineage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_18389">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Agriculture périurbaine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">peri-urban agriculture</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Agricultura suburbana</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Agricultura peri urbana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6448">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Terras de pastagem</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Tierras de pastos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">rangelands</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Parcours</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6887">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Área de matagal</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Tierras de matorral</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">scrublands</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Brousse</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_14569">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Forêt domaniale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">state forests</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Bosques estatales</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Floresta do estado</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_12069">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Tenencia de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tenure foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land tenure</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Posse da terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_32620">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">arboricultura urbana</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">foresterie urbaine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">urban forestry</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Arborização urbana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37948">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">urban planning</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Aménagement urbain</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ordenamento urbano</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Planificación urbana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8088">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Urbanização</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Urbanización</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">urbanization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Urbanisation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8320">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Ordenación de aguas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Gestion des eaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">water management</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Gestão da água</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_330634">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">gestion des eaux sur les plaines</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Gestão da água nas planícies</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">water management in lowland</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Gestión de agua en tierras bajas</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_330633">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Gestión de agua en tierras altas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">water management in upland</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Gestão da água nas montanhas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gestion des eaux sur les hauts-plateaux</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_36936">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Zonagem</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Zonificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">zoning</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Zonage</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_16062">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Réglementation des eaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito relativo à água</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derecho de aguas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">water rights</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_28775">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Direito do arrendatário</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Droit du locataire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">tenant&#39;s rights</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derecho del propietario</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37942">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Direito de propriedade</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derechos de propiedad</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Droit de propriété</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">property rights</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6604">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">right of access</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Derecho de uso</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">droit d&#39;usage</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito de acesso</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000091">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land administration</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Administração de terras</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Administración de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Administration foncière</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000094">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">land cover mapping</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Cartografía de la cubierta vegetal</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Cartografia da ocupação do solo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Cartographie de l&#39;occupation du sol</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_9000100">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Cartographie de l&#39; utilisation des terres</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land use mapping</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Cartografía del uso de la tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Cartografia do uso da terra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4181">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Asignación de tierras</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Mutation foncière</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land transfers</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Transferência da terra (jurídica)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_15590">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">deforestation</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Desflorestação</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Déboisement</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Deforestación</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_36580">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">sustainable land management</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ordenamento sustentável da terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Gestion foncière durable</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Ordenación de tierras sostenible</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6704">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Planificación rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Planeamento rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Aménagement rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">rural planning</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_24403">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Agricultor sem terra</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Paysannat sans terre</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Campesino sin tierra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">landlessness</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6192">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Propriedade privada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">private ownership</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Propiedad privada</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Propriété privée</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6350">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Propiedad pública</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">public ownership</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Propriedade pública</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Propriété publique</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_3060">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Política florestal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forestry policies</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Politique forestière</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Política forestal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6705">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Population rurale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">rural population</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">População rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Población rural</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8086">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">Population urbaine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">urban population</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Población urbana</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">População urbana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37720">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Zonas verdes</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Área verde urbana</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">green belts</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Espace vert</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37952">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">protected areas</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Zona protegida</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Zone protegée</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Zonas protegidas</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_16141">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">nature reserves</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Réserve naturelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Reservas naturales</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Reserva natural</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_6699">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">rural areas</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Zonas rurales</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Zona rural</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Zone rurale</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_8085">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">urban areas</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Zona urbana</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Zonas urbanas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Zone urbaine</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_10967">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Segurança alimentar</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">food security</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Sécurité alimentaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Seguridad alimentaria</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_1410424255662">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Advocacia</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Incidencia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">plaidoyer</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">advocacy</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_15686">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="es">Límite</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">boundaries</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Délimitation</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Limite</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_203">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="pt">Agricultura</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agriculture</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Agriculture</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Agricultura</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_37836">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="fr">développement des capacités</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Desenvolvimento das capacidades</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">capacity building</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">creación de capacidad</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_ee93bbbe">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">adjudication</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">arbitrage</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Adjudicación</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Adjudicação</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_50226">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+    <skos:prefLabel xml:lang="en">grassroots organizations</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">organizaciones de base comunitaria</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">organisation de base</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Organizações de base comunitária</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

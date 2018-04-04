@@ -1,0 +1,28 @@
+# Gets prefLabel of LandVoc concepts (the ones that are in the scheme)
+# Languages: English (en), French (fr), Spanish (es), Portuguese (pt)
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+CONSTRUCT {
+	?concept rdf:type skos:Concept ;
+	    skos:prefLabel ?enLabel ;
+	    skos:prefLabel ?esLabel ;
+		skos:prefLabel ?frLabel ;
+		skos:prefLabel ?ptLabel .
+}
+
+FROM <http://temp.landvoc.org>
+
+WHERE {
+   ?concept rdf:type skos:Concept .
+   ?concept skos:prefLabel ?enLabel .
+   FILTER ( lang(?enLabel) = "en" ) .    
+   ?concept skos:prefLabel ?esLabel .
+   FILTER ( lang(?esLabel) = "es" ) .    
+   ?concept skos:prefLabel ?frLabel .
+   FILTER ( lang(?frLabel) = "fr" ) .    
+   ?concept skos:prefLabel ?ptLabel .
+   FILTER ( lang(?ptLabel) = "pt" ) .    
+
+} ORDER BY ?concept
