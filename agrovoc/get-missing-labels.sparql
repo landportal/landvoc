@@ -5,19 +5,16 @@
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 PREFIX : <http://aims.fao.org/aos/agrovoc/>
         
 
 SELECT DISTINCT * WHERE {
    ?concept rdf:type skos:Concept ;
-            skos:inScheme <http://voc.landportal.info/landterms> ;
-			vocbench:hasStatus "Published" .			
+            skos:inScheme <http://voc.landportal.info/landterms> .
 
    FILTER NOT EXISTS {
        ?concept skosxl:prefLabel _:prefLTH .
-      _:prefLTH skosxl:literalForm ?thLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLTH skosxl:literalForm ?thLabel .
       FILTER ( lang(?thLabel) = "th" ) .    
    }
 

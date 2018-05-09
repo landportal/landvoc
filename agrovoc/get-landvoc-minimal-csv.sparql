@@ -6,75 +6,64 @@
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 PREFIX : <http://aims.fao.org/aos/agrovoc/>
         
 
 SELECT DISTINCT ?concept ?enLabel ?esLabel ?frLabel ?ptLabel ?kmLabel ?viLabel ?myLabel ?thLabel ?zhLabel WHERE {
    ?concept rdf:type skos:Concept ;
-            skos:inScheme <http://voc.landportal.info/landterms> ;
-			vocbench:hasStatus "Published" .
+            skos:inScheme <http://voc.landportal.info/landterms> .
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLEN .
-       _:prefLEN skosxl:literalForm ?enLabel ;
-	             vocbench:hasStatus "Published" .
+       _:prefLEN skosxl:literalForm ?enLabel .
        FILTER ( lang(?enLabel) = "en" ) .    
    }
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLES .
-      _:prefLES skosxl:literalForm ?esLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLES skosxl:literalForm ?esLabel .
       FILTER ( lang(?esLabel) = "es" ) .    
    }                        
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLFR .
-      _:prefLFR skosxl:literalForm ?frLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLFR skosxl:literalForm ?frLabel .
       FILTER ( lang(?frLabel) = "fr" ) .    
    } 
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLPT .
-      _:prefLPT skosxl:literalForm ?ptLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLPT skosxl:literalForm ?ptLabel .
       FILTER ( lang(?ptLabel) = "pt" ) .    
    }                           
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLKM .
-      _:prefLKM skosxl:literalForm ?kmLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLKM skosxl:literalForm ?kmLabel .
       FILTER ( lang(?kmLabel) = "km" ) .    
    }                           
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLVI .
-      _:prefLVI skosxl:literalForm ?viLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLVI skosxl:literalForm ?viLabel .
       FILTER ( lang(?viLabel) = "vi" ) .    
    }                           
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLMY .
-      _:prefLMY skosxl:literalForm ?myLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLMY skosxl:literalForm ?myLabel .
       FILTER ( lang(?myLabel) = "my" ) .    
    }                           
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLTH .
-      _:prefLTH skosxl:literalForm ?thLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLTH skosxl:literalForm ?thLabel .
       FILTER ( lang(?thLabel) = "th" ) .    
    }
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLZH .
-      _:prefLZH skosxl:literalForm ?zhLabel ;
-	            vocbench:hasStatus "Published" .
+      _:prefLZH skosxl:literalForm ?zhLabel .
       FILTER ( lang(?zhLabel) = "zh" ) .    
    }
 

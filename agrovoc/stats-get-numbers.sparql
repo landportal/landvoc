@@ -6,7 +6,6 @@
 
 
 # number of terms in Land Term Scheme
-PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 
 SELECT (COUNT (?concept) as ?c)
 WHERE {
@@ -46,7 +45,6 @@ ORDER BY DESC(?count)
 
 ##############################################
 
-
 SELECT ?lang (COUNT (?lang) as ?count)
 WHERE {
   ?concept a skos:Concept ;
@@ -76,9 +74,7 @@ WHERE {
 GROUP BY ?lang
 ORDER BY DESC(?count)
 
-
 ##############################################
-
 
 SELECT ?lang (COUNT (?lang) as ?count)
 FROM <http://landvoc.landportal.info>

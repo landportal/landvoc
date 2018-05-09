@@ -3,7 +3,6 @@
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 PREFIX : <http://aims.fao.org/aos/agrovoc/>
         
 SELECT DISTINCT ?concept ?lang WHERE {
@@ -11,8 +10,7 @@ SELECT DISTINCT ?concept ?lang WHERE {
 
    OPTIONAL {
        ?concept skosxl:prefLabel _:prefLabel .
-       _:prefLabel skosxl:literalForm ?label ;
-	             vocbench:hasStatus "Published" .
+       _:prefLabel skosxl:literalForm ?label .
        BIND (lang(?label) AS ?lang) 
    }
 } GROUP BY ?concept ?lang
@@ -25,15 +23,13 @@ HAVING (COUNT(?concept) >1)
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 PREFIX : <http://aims.fao.org/aos/agrovoc/>
         
 SELECT DISTINCT ?concept ?lang WHERE {
    ?concept rdf:type skos:Concept . 
 
    OPTIONAL {
-       ?concept skos:prefLabel ?label ;
-	             vocbench:hasStatus "Published" .
+       ?concept skos:prefLabel ?label .
        BIND (lang(?label) AS ?lang) 
    }
 } GROUP BY ?concept ?lang
