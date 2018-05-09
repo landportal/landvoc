@@ -1,0 +1,16 @@
+# Gets terms with possible invalid values (Full Agrovoc)
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?concept ?label ?lang WHERE {
+   ?concept rdf:type skos:Concept .
+
+   OPTIONAL {
+       ?concept skosxl:prefLabel _:blankLabel . 
+       _:blankLabel skosxl:literalForm ?label ;
+       BIND (lang(?label) AS ?lang)
+   }
+
+   FILTER(contains(?label, ";") || contains(?label, ",") || contains(?label, "/") || contains(?label, "|") || contains(?label, '"'))
+}
