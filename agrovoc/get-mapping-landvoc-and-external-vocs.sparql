@@ -1,0 +1,11 @@
+# Get the mapping from LandVoc to external vocabularies
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?concept ?exact 
+WHERE {
+   ?concept rdf:type skos:Concept ;
+            skos:inScheme <http://voc.landportal.info/landterms> ;
+  			skos:exactMatch ?exact .
+}
