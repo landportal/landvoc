@@ -2,7 +2,7 @@
 #### QUERYING AGROVOC #########
 ###############################
 
-SPARQL ENDPOINT: http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc#query
+#SPARQL ENDPOINT: http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc#query
 
 
 # number of terms in Land Term Scheme
@@ -11,23 +11,19 @@ PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 SELECT (COUNT (?concept) as ?c)
 WHERE {
   ?concept a skos:Concept ;
-           skos:inScheme <http://voc.landportal.info/landterms> ;
-  		   vocbench:hasStatus "Published" .
+           skos:inScheme <http://voc.landportal.info/landterms> .
 
 } ORDER BY ?concept
 
 ##############################################
-PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
 
 SELECT ?lang (COUNT (?lang) as ?count)
 WHERE {
   ?concept a skos:Concept ;
            skos:inScheme <http://voc.landportal.info/landterms> ;
-  		   vocbench:hasStatus "Published" ;
            skosxl:prefLabel _:prefLabel .
-  _:prefLabel skosxl:literalForm ?label ;
-              vocbench:hasStatus "Published" .		   
+  _:prefLabel skosxl:literalForm ?label .
   BIND (lang(?label) AS ?lang)
 } 
 GROUP BY ?lang
@@ -35,17 +31,14 @@ ORDER BY DESC(?count)
 
 ##############################################
 
-PREFIX vocbench: <http://art.uniroma2.it/ontologies/vocbench#>
 PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
 
 SELECT ?lang (COUNT (?lang) as ?count)
 WHERE {
   ?concept a skos:Concept ;
            skos:inScheme <http://voc.landportal.info/landterms> ;
-  		   vocbench:hasStatus "Published" ;
            skosxl:altLabel _:altLabel .
-  _:altLabel skosxl:literalForm ?label ;
-              vocbench:hasStatus "Published" .		   
+  _:altLabel skosxl:literalForm ?label .
   BIND (lang(?label) AS ?lang)
 } 
 GROUP BY ?lang
@@ -65,7 +58,9 @@ WHERE {
 GROUP BY ?lang
 ORDER BY DESC(?count)
 
-
+##############################################
+##############################################
+##############################################
 
 ###############################
 #### QUERYING LP SPARQL #######
