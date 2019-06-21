@@ -9,4 +9,5 @@ DESCRIBE ?concept
 WHERE {
    ?concept rdf:type skos:Concept ;
             skos:inScheme <http://voc.landportal.info/landterms> .
+    FILTER NOT EXISTS { ?concept owl:deprecated ?deprecated }
 }
